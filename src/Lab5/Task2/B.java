@@ -1,4 +1,4 @@
-package Lab5;
+package Lab5.Task2;
 
 public class B extends A {
     protected String b;
@@ -8,7 +8,7 @@ public class B extends A {
         super("aaa", x);
         this.b = b;
     }
-
+    @Override
     public String toString()
     {
         return super.toString() + ", b = " + b;

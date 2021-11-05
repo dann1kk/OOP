@@ -1,4 +1,4 @@
-package Lab5;
+package Lab5.Task2;
 
 public class D extends C {
     protected String d;
@@ -9,7 +9,7 @@ public class D extends C {
         super("ccc", x);
         this.d = d;
     }
-
+    @Override
     public String toString()
     {
         return super.toString() + ", d = " + d;

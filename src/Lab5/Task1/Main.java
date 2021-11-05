@@ -1,38 +1,36 @@
-package Lab5;
+package Lab5.Task1;
 
 public class Main {
     public static void main(String[] args)
     {
-        X x = new X("X");
-
-        A a = new A("A",x);
+        A a = new A();
         System.out.println(a);
 
-        B b = new B("B",x);
+        B b = new B();
         System.out.println(b);
 
-        C c = new C("C",x);
+        C c = new C();
         System.out.println(c);
 
-        D d = new D("D",x);
+        D d = new D();
         System.out.println(d);
 
-        E e = new E("E",x);
+        E e = new E();
         System.out.println(e);
 
-        F f = new F("F",x);
+        F f = new F();
         System.out.println(f);
 
-        G g = new G("G",x);
+        G g = new G();
         System.out.println(g);
 
-        H h = new H("H",x);
+        H h = new H();
         System.out.println(h);
 
-        I i = new I("I",x);
+        I i = new I();
         System.out.println(i);
 
-        J j = new J("J",x);
+        J j = new J();
         System.out.println(j);
     }
 }

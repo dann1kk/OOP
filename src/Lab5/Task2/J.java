@@ -1,6 +1,6 @@
-package Lab5;
+package Lab5.Task2;
 
-public class J extends I{
+public class J extends I {
     protected String j;
 
     public J(String j, X x)
@@ -8,6 +8,7 @@ public class J extends I{
         super("iii", x);
         this.j = j;
     }
+    @Override
     public String toString()
     {
         return super.toString() + ", j = " + j;

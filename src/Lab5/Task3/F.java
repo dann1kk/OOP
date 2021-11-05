@@ -1,13 +1,13 @@
-package Lab5;
+package Lab5.Task3;
 
 public class F extends E {
     protected String f;
-    public F(String f, X x)
+    public F(String f)
     {
-        super("eee", x);
+        super("eee");
         this.f = f;
     }
-
+    @Override
     public String toString()
     {
         return super.toString() + ", f = " + f;
